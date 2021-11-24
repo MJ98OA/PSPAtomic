@@ -5,6 +5,9 @@ import java.util.concurrent.atomic.AtomicReference;
 
 public class EjemploAtomicos {
 
+    /*Los atomicos sirven para que cuando vamos  ejecutar una linea y llegan dos hilos digamos que bloqueara esa linea mientras este en ejecucion la ejecutara por bloques
+    * es decir entrara y hara todo por completo b boolean false numero =9999 b=true condicion si es falso entrara*/
+
     AtomicBoolean aBoolean = new AtomicBoolean(true);
     AtomicInteger aInteger = new AtomicInteger(1);
     AtomicLong aLong = new AtomicLong(1);
